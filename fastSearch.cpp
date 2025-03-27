@@ -18,7 +18,7 @@ using namespace std;
 //     }
 //     return -1;
 // }
-int countNumbers(pair<int,int>& r, vector <int>& arr)
+int countNumbers(pair<long long,long long>& r, vector <long long>& arr)
 {
     //auto a = arr;
     int left = r.first;
@@ -42,9 +42,9 @@ int countNumbers(pair<int,int>& r, vector <int>& arr)
 
 int main()
 {
-    int n, m;
+    long long n, m;
     cin >> n ;
-    vector <int> arr(n);
+    vector <long long> arr(n);
     for (size_t i = 0; i < n ; i++)
     {
         
@@ -56,9 +56,9 @@ int main()
 
     cin >> m ; // no of querries
 
-    vector <int> querryCount(m);
-    vector <pair<int,int>> range ;
-    int l,r;
+    vector <long long> querryCount(m);
+    vector <pair<long long,long long>> range ;
+    long long l,r;
     for (size_t i = 0; i < m ; i++)
     {
         
